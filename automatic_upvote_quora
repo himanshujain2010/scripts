@@ -1,11 +1,11 @@
 /* script that i used to automatically upvote all the answer of my friend */
-var a = document.getElementsByClassName("add_upvote");
-for(var i =0;i<a.length;i++){
-   a[i].click();
+var add_upvote = document.getElementsByClassName("add_upvote");
+for(var i =0;i<add_upvote.length;i++){
+   add_upvote[i].click();
 }
 
 /* similary can be used to remove all your upvote */ 
-var a = document.getElementsByClassName("remove_upvote");
-for(var i =0;i<a.length;i++){
-   a[i].click();
+var remove_upvote = document.getElementsByClassName("remove_upvote");
+for(var i =0;i<remove_upvote.length;i++){
+   remove_upvote[i].click();
 }
