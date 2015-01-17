@@ -1,0 +1,5 @@
+/* script to automatic like all the loaded post in facebook */
+var a = document.getElementsByClassName('UFILikeLink');
+for(var i = 0;i<a.length;i++){
+  a[i].click();
+}
