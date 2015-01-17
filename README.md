@@ -1,2 +1,2 @@
 # scripts
-daily hack scipts
+Daily hack scipts
